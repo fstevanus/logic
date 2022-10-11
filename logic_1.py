@@ -6,6 +6,7 @@ from util import print2d, create_array_2d_fill
 n = 9
 fill = "-"
 
+print("logic 1")
 a = create_array_2d_fill(n, fill)
 for i in range(n):
     for j in range(n):
@@ -15,6 +16,7 @@ for i in range(n):
 print2d(a, n)
 print("")
 
+print("logic 2")
 a = create_array_2d_fill(n, fill)
 for i in range(n):
     for j in range(n):
@@ -24,6 +26,8 @@ for i in range(n):
 print2d(a, n)
 print("")
 
+print("logic 3")
+a = create_array_2d_fill(n, fill)
 a = create_array_2d_fill(n, fill)
 for i in range(n):
     for j in range(n):
@@ -33,6 +37,8 @@ for i in range(n):
 print2d(a, n)
 print("")
 
+print("logic 3")
+a = create_array_2d_fill(n, fill)
 a = create_array_2d_fill(n, fill)
 for i in range(n):
     for j in range(n):
@@ -42,6 +48,8 @@ for i in range(n):
 print2d(a, n)
 print("")
 
+print("logic 4")
+a = create_array_2d_fill(n, fill)
 a = create_array_2d_fill(n, fill)
 for i in range(n):
     for j in range(n):
@@ -51,6 +59,8 @@ for i in range(n):
 print2d(a, n)
 print("")
 
+print("logic 5")
+a = create_array_2d_fill(n, fill)
 a = create_array_2d_fill(n, fill)
 for i in range(n):
     for j in range(n):
@@ -59,9 +69,9 @@ for i in range(n):
                 a[i][j] = "*"
                 a[n-1-i][j] = "*"
                 a[i][n-1-j] = "*"
-                a[n-1-i][n-1-j] = "*"
-
-        
+      
+print("logic 6")
+a = create_array_2d_fill(n, fill)
 print2d(a, n)
 print("")
 
@@ -73,6 +83,7 @@ for i in range(n):
 
 print2d(a, n)
 print("")
+
 
 a = create_array_2d_fill(n, fill)
 for i in range(n):

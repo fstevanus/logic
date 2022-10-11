@@ -14,9 +14,10 @@ def create_array_2d_fill_ij(i, j, fill):
 
 def print2d(a, n):
     for i in range(n):
+        result=""
         for j in range(n):
-            print(a[i][j]),
-        print("")
+            result = result + a[i][j] + " "
+        print(result)
 
 def fibonanci(n):
     a = [0] * n
